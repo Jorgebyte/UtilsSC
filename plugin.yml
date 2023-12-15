@@ -1,0 +1,13 @@
+name: UtilsSC
+api: 5.0.0
+version: 1.0.0
+author: Jorgebyte
+main: UtilsSC\Jorgebyte\Main
+
+permissions:
+  utilssc.command:
+    default: true
+  feed.command:
+    default: op
+  feed.player.command:
+    default: op
