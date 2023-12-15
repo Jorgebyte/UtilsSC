@@ -112,7 +112,7 @@ class Utils
         $world = Server::getInstance()->getWorldManager()->getWorldByName($worldName);
         if ($world !== null) {
             $playerCount = count($world->getPlayers());
-            if ($playerCount >= 1) {
+            if ($playerCount >= 11) {
                 return $playerCount . " (". JB::GREEN . "Popular" .JB::GRAY .")";
             } else {
                 return (string)$playerCount;
